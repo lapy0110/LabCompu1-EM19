@@ -8,13 +8,16 @@
 #include<stdio.h>
 
 void main(){
+    // Variables
     int segundos,minutos,horas,dias;
 
+    // Introducción de datos
     printf("Introduzca el tiempo en segundos: ");
     scanf("%d",&segundos);
 
     printf("----------------------------------------------------\n");
     
+    // Calculos
     minutos=segundos/60;
     segundos=segundos%60;
 
@@ -24,6 +27,7 @@ void main(){
     dias = horas/24;
     horas= horas%24;
 
+    //Salida
     printf("Su tiempo queda correctamente expresado como: \n");
     printf("%d", dias);
     printf(" dias, ");
